@@ -29,8 +29,14 @@ public abstract class Activity
     {
         return 0;
     }
-    public abstract double GetSpeed();
-    public abstract double GetPace();
+    public virtual double GetSpeed()
+    {
+        return 0;
+    }
+    public virtual double GetPace()
+    {
+        return 0;
+    }
 
     public abstract string GetSummary();
     
